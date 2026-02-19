@@ -1,5 +1,6 @@
 services:
   flask-app:
+    image: flask-running-app:v2.0
     build:
       context: flask-app
       dockerfile: Dockerfile
