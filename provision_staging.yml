@@ -44,7 +44,7 @@
     ansible_ssh_private_key_file: flask_running_app_staging_key.pem
     remote_ec2_user: ubuntu
     # your DuckDNS subdomain (without the .duckdns.org part)
-    duckdns_domain: <PLACEHOLDER - REPLACE WITH YOUR CHOSEN SUBDOMAIN>
+    duckdns_domain: uws-devops-staging-b01665431
   remote_user: "{{ remote_ec2_user }}"
   become: yes
   become_method: sudo
