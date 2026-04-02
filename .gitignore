@@ -4,3 +4,7 @@ flask-app/*.pyc
 
 # do not track the virtual environment
 flask-app/venv
+
+# do not track .pem files
+
+*.pem
